@@ -1,5 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+    typescript: {
+      typeCheck: true
+    },
     app:{
         // 部署至githubpage需設定為專案名稱
         baseURL: '/nuxt3App/',
@@ -8,4 +11,5 @@ export default defineNuxtConfig({
         // 設定讀取路徑
         cdnURL:'./',
       }, 
+    modules: ['@nuxtjs/tailwindcss'],
 })
