@@ -24,6 +24,7 @@
 </template>
 <script lang="ts" setup>
 
-const { count, increment,subtraction } = useCounter()
+// const { count, increment,subtraction } = useCounter()
+const { count, increment,subtraction } = outMessage()
 
 </script>
