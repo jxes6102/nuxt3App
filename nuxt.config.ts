@@ -9,7 +9,7 @@ export default defineNuxtConfig({
         // // 設定打包後資料夾名稱
         buildAssetsDir:'/dist/',
         // 設定讀取路徑
-        cdnURL:'./',
+        cdnURL:'./dist/',
       }, 
     modules: ['@nuxtjs/tailwindcss'],
 })
