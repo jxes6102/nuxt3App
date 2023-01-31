@@ -15,7 +15,8 @@
 
 const show = ref(false)
 const DynamicComponent = resolveComponent('NuxtWelcome')
-const changeStatus = function (): void {
+
+const changeStatus = ():void => {
     show.value = !show.value
     console.log('dodo')
 }

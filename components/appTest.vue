@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="bg-white py-24">
+        <div class="bg-white py-2">
         <div class="mine-flex-center">
             <h1 class="text-6xl font-semibold text-blue-600">NUXT</h1>
             <p class="mt-4 text-9xl font-bold text-gray-900">TEST</p>

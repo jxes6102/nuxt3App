@@ -14,6 +14,7 @@
 </div>
 </template>
 <script lang="ts" setup>
+
 // console.log('a')
 // const route = useRoute()
 // const { id } = route.params
