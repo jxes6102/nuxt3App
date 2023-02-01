@@ -10,7 +10,6 @@
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.2.0",
     "nuxt": "^3.0.0",
-    "nuxt-icon": "^0.2.10",
     "vue-tsc": "^1.0.24"
   }
 }
