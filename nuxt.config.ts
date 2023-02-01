@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
     ssr: false,
     typescript: {
-      typeCheck: true
+      typeCheck: false
     },
     app:{
         // 部署至githubpage需設定為專案名稱

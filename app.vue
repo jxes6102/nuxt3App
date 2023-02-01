@@ -17,4 +17,16 @@
   </div>
 </template>
 <script lang="ts" setup>
+
+const routers = useRouter();
+const route = useRoute();
+
+onMounted(() => {
+  window.onbeforeunload = () => {
+    routers.push({ path: route.path });
+  }
+})
+
+
+
 </script>
