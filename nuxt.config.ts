@@ -13,9 +13,9 @@ export default defineNuxtConfig({
         cdnURL:'./',
       }, 
     modules: ['@nuxtjs/tailwindcss'],
-    nitro: {
-      prerender: {
-        routes: ['/page1', '/page2','/page3']
-      }
-    }
+    // nitro: {
+    //   prerender: {
+    //     routes: ['/page1', '/page2','/page3']
+    //   }
+    // }
 })
