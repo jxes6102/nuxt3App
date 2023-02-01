@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
     ssr: false,
     typescript: {
-      typeCheck: false
+      typeCheck: true
     },
     app:{
         // 部署至githubpage需設定為專案名稱
@@ -12,7 +12,7 @@ export default defineNuxtConfig({
         // 設定讀取路徑
         cdnURL:'./',
       }, 
-    modules: ['@nuxtjs/tailwindcss'],
+    modules: ['@nuxtjs/tailwindcss','nuxt-icon'],
     // nitro: {
     //   prerender: {
     //     routes: ['/page1', '/page2','/page3']
