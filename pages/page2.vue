@@ -26,5 +26,7 @@
 
 // const { count, increment,subtraction } = useCounter()
 const { count, increment,subtraction } = outMessage()
-
+definePageMeta({
+  middleware: ['check-test']
+})
 </script>
