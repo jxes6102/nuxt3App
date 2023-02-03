@@ -9,6 +9,7 @@
         <NuxtLink to="/page1">前往 page1</NuxtLink>
         <NuxtLink to="/page2">前往 page2</NuxtLink>
         <NuxtLink to="/page3">前往 page3</NuxtLink>
+        <NuxtLink to="/page4">前往 page4</NuxtLink>
     </div>
     <!-- <div class="mine-flex-center">{{ $route.params }}</div> -->
 </div>
