@@ -1,10 +1,14 @@
 <template>
-    <div>
-        <div class="mine-flex-center">
-            <p class="mt-4 text-2xl font-bold text-gray-900">is page4</p>
-        </div>
+    <div class="my-24 flex flex-col items-center">
+      <p class="text-4xl text-gray-600">瀏覽次數</p>
+      <span class="mt-4 text-6xl font-semibold text-sky-400">{{ data }}</span>
     </div>
 </template>
 <script lang="ts" setup>
+// const apiData = $fetch('/api/test').then((data)=> {
+//     console.log('data',data)
+// })
+
+const { data, pending, error, refresh } = useAsyncData('count', () => $fetch('/api/count'))
 
 </script>
