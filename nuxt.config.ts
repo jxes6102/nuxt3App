@@ -12,7 +12,7 @@ export default defineNuxtConfig({
         // 設定讀取路徑
         cdnURL:'./',
       }, 
-    modules: ['@nuxtjs/tailwindcss'],
+    modules: ['@nuxtjs/tailwindcss','@pinia/nuxt'],
     // nitro: {
     //   prerender: {
     //     routes: ['/page1', '/page2','/page3']
