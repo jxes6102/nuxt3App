@@ -1,5 +1,19 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+   // origin config  
+  runtimeConfig: {
+      apiSecret: '怎麼可以讓你知道呢 :P',
+      public: {
+        apiBase: '/api',
+        test:'is test public'
+      }
+    },
+    // web style config
+    appConfig: {
+      theme: {
+        primaryColor: '#0ea5e9'
+      }
+    },
     ssr: true,
     typescript: {
       typeCheck: true

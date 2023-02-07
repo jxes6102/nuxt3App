@@ -20,10 +20,21 @@
 import { onMounted } from 'vue';
 
 onMounted(() => {
-  console.log('is mounted');
 })
 // console.log('a')
 // const route = useRoute()
 // const { id } = route.params
 // console.log('b')
+
+console.log('is mounted');
+const runtimeConfig = useRuntimeConfig()
+// const { apiSecret } = runtimeConfig
+// console.log(`執行時的環境變數 [apiSecret]: ${apiSecret}`)
+const clientest = runtimeConfig.test
+console.log('client',clientest)
+const appConfig = useAppConfig()
+const { theme } = appConfig
+console.log('test style',theme.primaryColor)
+
+
 </script>
