@@ -39,9 +39,4 @@ export default defineNuxtConfig({
         legacy: false
       }
     }
-    // nitro: {
-    //   prerender: {
-    //     routes: ['/page1', '/page2','/page3']
-    //   }
-    // }
 })

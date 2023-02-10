@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="mine-flex-center">
-            <p class="mt-4 text-2xl font-bold text-gray-900">is page2</p>
+            <p class="mt-4 text-2xl font-bold text-gray-900">is page2 route middleware</p>
         </div>
     </div>
     <div class="mine-flex-center">
