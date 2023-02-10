@@ -38,5 +38,12 @@ export default defineNuxtConfig({
       vueI18n: {
         legacy: false
       }
-    }
+    },
+    // nitro: {
+    //   prerender: {
+    //     ignore: [],
+    //     routes: ['/page1','/page2','/page3','/page4','/page5','/page6','/page7',],
+    //     crawlLinks: true
+    //   }
+    // },
 })
