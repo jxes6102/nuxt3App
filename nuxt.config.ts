@@ -14,7 +14,7 @@ export default defineNuxtConfig({
         primaryColor: '#0ea5e9'
       }
     },
-    ssr: true,
+    ssr: false,
     typescript: {
       typeCheck: true
     },
