@@ -39,4 +39,5 @@
 import { useCounterStore } from '@/stores/pinia'
 
 const counterStore = useCounterStore()
+counterStore.clear()
 </script>
