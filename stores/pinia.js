@@ -19,7 +19,7 @@ export const useCounterStore = defineStore('pinia', {
         this.count = Math.pow(this.count, 2)
     },
     clear() {
-      console.log('clear')
+      console.log('clears')
         this.count = 0
     },
     // async getUserProfile() {
