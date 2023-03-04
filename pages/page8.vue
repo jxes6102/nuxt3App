@@ -66,5 +66,10 @@ const action = async() => {
     dealStatus.value = false
   }
 }
-
+console.log('a')
+await new Promise((resolve) => {
+  console.log('b')
+  setTimeout(resolve, 2000)
+})
+console.log('c')
 </script>
