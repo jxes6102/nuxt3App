@@ -1,0 +1,83 @@
+<krpano modelPath="%VIEWER%/assets/model3d/model.obj">
+  <!-- <display depthmaprendermode="3dmodel" />
+  <display depthbuffer="true" /> -->
+  <!-- <display depthmaprendermode="depthmap" /> -->
+  <!-- 
+    
+    depthmaprendermode:
+	    - "depthmap" (default)
+            - generates an internal 24bit depthmap image
+            - fastest to load
+            - no "holes", everything is "connected/filled"
+            - not perfectly accurate
+	    - "3dmodel"
+            - uses the 3d model and maps the pano onto it
+            - slower because the 3d model internally needs to get sub-divided into many small triangles
+    -->
+  <!-- PANORAMA POSITIONS -->
+  <style name="everpano3d_IMG_4259"  ox="143.9086441776" oy="0" oz="-43.8207547469" linkedscene="scene_IMG_4259" />
+  <style name="everpano3d_IMG_4260"  ox="106.4262215474" oy="0" oz="118.1322527869" linkedscene="scene_IMG_4260" />
+  <style name="everpano3d_IMG_4261"  ox="-357.3572598346" oy="0" oz="51.6319823322" linkedscene="scene_IMG_4261" />
+  <style name="everpano3d_IMG_4262"  ox="-268.525159613" oy="0" oz="-102.8158736337" linkedscene="scene_IMG_4262" />
+  <style name="everpano3d_IMG_4263"  ox="-25.1706779557" oy="0" oz="-19.7967249579" linkedscene="scene_IMG_4263" />
+  <!-- SCENES -->
+  <!-- model3d -->
+  <scene name="scene_model3d" autoload="true" type="model3d" onstart="initial_model3d_view()" thumburl="%VIEWER%/assets/model3d/snapshot.jpg" thumbSize="250,130">
+    <preview url="%VIEWER%/assets/model3d/preview.jpg" />
+    <image>
+      <sphere url="%VIEWER%/assets/model3d/texture.png" />
+      <depthmap url="%VIEWER%/assets/model3d/model.obj" rendermode="3dmodel" scale="1" textured="true" cull="front" waitforload="true" />
+    </image>
+  </scene>
+  <!-- IMG_4259 -->
+  <scene name="scene_IMG_4259" type="panorama" model="true" title="IMG_4259" alt="100" thumburl="assets\panos\IMG_4259.tiles\snapshot.jpg"  >
+    <view hlookat="0" vlookat="0" fov="120.00"  fovtype="MFOV" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+    <preview type="CUBESTRIP" url="%VIEWER%\assets\panos\IMG_4259.tiles\preview.jpg" />
+    <image style="everpano3D_IMG_4259" >
+      <cube url="%VIEWER%\assets\panos\IMG_4259.tiles\%s\l%l\%v\l%l_%s_%v_%h.jpg" multires="512,768,1664,3200" />
+      <depthmap  url="%VIEWER%\assets\model3d\model.obj" center="-43.8207547469,0,-143.9086441776" enabled="true" scale="1.0" />
+    </image>
+  </scene>
+  <!-- IMG_4260 -->
+  <scene name="scene_IMG_4260" type="panorama" model="true" title="IMG_4260" alt="100" thumburl="assets\panos\IMG_4260.tiles\snapshot.jpg"  >
+    <view hlookat="0" vlookat="0" fov="120.00"  fovtype="MFOV" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+    <preview type="CUBESTRIP" url="%VIEWER%\assets\panos\IMG_4260.tiles\preview.jpg" />
+    <image style="everpano3D_IMG_4260" >
+      <cube url="%VIEWER%\assets\panos\IMG_4260.tiles\%s\l%l\%v\l%l_%s_%v_%h.jpg" multires="512,768,1664,3200" />
+      <depthmap  url="%VIEWER%\assets\model3d\model.obj" center="118.1322527869,0,-106.4262215474" enabled="true" scale="1.0" />
+    </image>
+  </scene>
+  <!-- IMG_4261 -->
+  <scene name="scene_IMG_4261" type="panorama" model="true" title="IMG_4261" alt="100" thumburl="assets\panos\IMG_4261.tiles\snapshot.jpg"  >
+    <view hlookat="0" vlookat="0" fov="120.00"  fovtype="MFOV" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+    <preview type="CUBESTRIP" url="%VIEWER%\assets\panos\IMG_4261.tiles\preview.jpg" />
+    <image style="everpano3D_IMG_4261" >
+      <cube url="%VIEWER%\assets\panos\IMG_4261.tiles\%s\l%l\%v\l%l_%s_%v_%h.jpg" multires="512,768,1664,3200" />
+      <depthmap  url="%VIEWER%\assets\model3d\model.obj" center="51.6319823322,0,357.3572598346" enabled="true" scale="1.0" />
+    </image>
+  </scene>
+  <!-- IMG_4262 -->
+  <scene name="scene_IMG_4262" type="panorama" model="true" title="IMG_4262" alt="100" thumburl="assets\panos\IMG_4262.tiles\snapshot.jpg"  >
+    <view hlookat="0" vlookat="0" fov="120.04"  fovtype="MFOV" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+    <preview type="CUBESTRIP" url="%VIEWER%\assets\panos\IMG_4262.tiles\preview.jpg" />
+    <image style="everpano3D_IMG_4262" >
+      <cube url="%VIEWER%\assets\panos\IMG_4262.tiles\%s\l%l\%v\l%l_%s_%v_%h.jpg" multires="512,768,1664,3200" />
+      <depthmap  url="%VIEWER%\assets\model3d\model.obj" center="-102.8158736337,0,268.525159613" enabled="true" scale="1.0" />
+    </image>
+  </scene>
+  <!-- IMG_4263 -->
+  <scene name="scene_IMG_4263" type="panorama" model="true" title="IMG_4263" alt="100" thumburl="assets\panos\IMG_4263.tiles\snapshot.jpg"  >
+    <view hlookat="0" vlookat="0" fov="120.00"  fovtype="MFOV" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+    <preview type="CUBESTRIP" url="%VIEWER%\assets\panos\IMG_4263.tiles\preview.jpg" />
+    <image style="everpano3D_IMG_4263" >
+      <cube url="%VIEWER%\assets\panos\IMG_4263.tiles\%s\l%l\%v\l%l_%s_%v_%h.jpg" multires="512,768,1664,3200" />
+      <depthmap  url="%VIEWER%\assets\model3d\model.obj" center="-19.7967249579,0,25.1706779557" enabled="true" scale="1.0" />
+    </image>
+  </scene>
+</krpano>
+
+
+
+
+
+

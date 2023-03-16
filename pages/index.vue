@@ -14,6 +14,7 @@
         <NuxtLink to="/page6">前往 page6</NuxtLink>
         <NuxtLink to="/page7">前往 page7</NuxtLink>
         <NuxtLink to="/page8">前往 page8</NuxtLink>
+        <NuxtLink to="/video3d">前往 video</NuxtLink>
     </div>
     <!-- <div class="mine-flex-center">{{ $route.params }}</div> -->
 </div>

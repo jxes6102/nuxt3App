@@ -1,6 +1,6 @@
 <template>
   <div>
-      <NuxtLayout name="default">
+      <!-- <NuxtLayout name="default">
         <template #header>
           <p class="px-6 pt-4 text-xl text-green-500">這段會放置在 header 插槽</p>
         </template>
@@ -12,12 +12,11 @@
         <template #footer>
           <p class="px-6 pt-4 text-xl text-blue-500">這段會放置在 footer 插槽</p>
         </template>
-      </NuxtLayout>
+      </NuxtLayout> -->
       <NuxtPage />
   </div>
 </template>
 <script lang="ts" setup>
-
 // const routers = useRouter();
 // const route = useRoute();
 

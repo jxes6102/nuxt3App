@@ -1,0 +1,441 @@
+html,
+body {
+    height: 100%;
+    background-color: #fff;
+}
+
+.indexPC-container {}
+
+
+/* 導航頁面 */
+
+.nav-container {
+    position: relative;
+    height: 10.25rem;
+    background-size: 100% 100%;
+    background-image: url("../images/indexbg-pc.png");
+}
+
+.nav-container .nav-main {
+    padding-top: 0.40rem;
+}
+
+.nav-container .right-words {
+    position: absolute;
+    top: 5.00rem;
+    left: 60%;
+}
+
+.right-words .bold-words {
+    font-size: 0.80rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.right-words .normal-words {
+    font-size: 0.40rem;
+    margin-top: 0.30rem;
+    color: #fff;
+}
+
+.nav-main>div {
+    display: inline-block;
+}
+
+.nav-main .logo-containe {
+    width: 2.00rem;
+    height: 1.00rem;
+    background-size: 100% 100%;
+    background-image: url("../images/logo.png");
+}
+
+.nav-main .nav-right {
+    margin-left: 1.00rem;
+}
+
+.nav-right .nav-common {
+    margin-right: 0.50rem;
+    color: #fff;
+}
+
+
+/* <!--營銷新時代--> */
+
+.page-two {
+    padding-top: 1.6rem;
+}
+
+.page-two .common-line {
+    text-align: center;
+}
+
+.common-line .top-image {
+    display: inline-block;
+    width: 14.40rem;
+    height: 5.20rem;
+    margin-bottom: 1.0rem;
+    background-size: 100% 100%;
+    background-image: url("../images/index-pc-bg2.png");
+}
+
+.common-line .center-image {
+    display: inline-block;
+    width: 7.60rem;
+    height: 1.50rem;
+    background-size: 100% 100%;
+    background-image: url("../images/index-pc-bg2-1.png");
+}
+
+.common-line .bottom-image {
+    display: inline-block;
+    width: 3.0rem;
+    height: 1.25rem;
+    margin-bottom: 1.0rem;
+    background-size: 100% 100%;
+    background-image: url("../images/index-pc-bg2-2.png");
+}
+
+
+/* 全景 */
+
+.page-three .common-line {
+    text-align: center;
+}
+
+.page-three .common-line .top-image {
+    display: inline-block;
+    width: 14.40rem;
+    height: 6.50rem;
+    margin-bottom: 1.0rem;
+    background-size: 100% 100%;
+    background-image: url("../images/index-pc-bg3.png");
+}
+
+.page-three .common-line .center-image {
+    display: inline-block;
+    width: 14.40rem;
+    height: 10.0rem;
+    background-size: 100% 100%;
+    background-image: url("../images/index-pc-bg3-1.png");
+}
+
+.page-three .align-left {
+    text-align: left;
+}
+
+.page-three .common-line .bottom-image {
+    display: inline-block;
+    width: 4.8rem;
+    height: 1.5rem;
+    margin-bottom: 0.3rem;
+    margin-top: -0.8rem;
+    margin-left: 5.3rem;
+    background-size: 100% 100%;
+    background-image: url("../images/index-pc-bg3-2.png");
+}
+
+
+/* 疫情 */
+
+.page-four .common-line {
+    text-align: left;
+    padding: 0 2.40rem;
+}
+
+.page-four .common-line .top-image {
+    display: inline-block;
+    width: 13.0rem;
+    height: 3.50rem;
+    margin-bottom: 0rem;
+    background-size: 100% 100%;
+    background-image: url("../images/index-pc-bg4-1.png");
+}
+
+.page-four .common-line .center-image {
+    display: inline-block;
+    width: 13.40rem;
+    height: 3.50rem;
+    margin-bottom: 0rem;
+    background-size: 100% 100%;
+    background-image: url("../images/index-pc-bg4-2.png");
+}
+
+.page-four .common-line .bottom-image {
+    display: inline-block;
+    width: 13.40rem;
+    height: 3.50rem;
+    margin-bottom: 0rem;
+    background-size: 100% 100%;
+    background-image: url("../images/index-pc-bg4-3.png");
+}
+
+.page-four .common-line .bottom-image1 {
+    display: inline-block;
+    width: 13.40rem;
+    height: 3.50rem;
+    margin-bottom: 0rem;
+    background-size: 100% 100%;
+    background-image: url("../images/index-pc-bg4-4.png");
+}
+
+
+/* 强大後盾 */
+
+.page-five .common-line {
+    text-align: center;
+}
+
+.page-five .common-line .top-image {
+    display: inline-block;
+    width: 16.5rem;
+    height: 6.10rem;
+    margin-bottom: 0rem;
+    background-size: 100% 100%;
+    background-image: url("../images/index-pc-bg5-1.png");
+}
+
+
+/* VR全景 */
+
+.page-six {
+    padding-top: 0.50rem;
+}
+
+.page-six .common-line {
+    text-align: center;
+}
+
+.page-six .common-line .top-image {
+    display: inline-block;
+    width: 7.5rem;
+    height: 0.95rem;
+    margin-bottom: 0.3rem;
+    background-size: 100% 100%;
+    background-image: url("../images/index-pc-bg6-1.png");
+}
+
+.page-six .common-line .center-image {
+    display: inline-block;
+    width: 13.7rem;
+    height: 5.5rem;
+    margin-bottom: 0rem;
+    background-size: 100% 100%;
+    background-image: url("../images/index-pc-bg6-2.png");
+}
+
+
+/* 將科技帶著走 */
+
+.page-seven .common-line {
+    text-align: center;
+    position: relative;
+}
+
+.page-seven .common-line .top-image {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 17rem;
+    left: 0;
+    right: 0;
+    top: -3rem;
+    margin-bottom: 0.3rem;
+    background-image: url("../images/index-pc-bg7-1.png");
+}
+
+.page-seven .common-line .center-image {
+    position: absolute;
+    z-index: -1;
+    width: 14rem;
+    height: 13rem;
+    left: 0;
+    top: 1rem;
+    margin-bottom: 0.3rem;
+    background-size: 100% 100%;
+    background-image: url("../images/index-pc-bg7-2.png");
+}
+
+.page-seven .common-line .bottom-image {
+    position: absolute;
+    z-index: -1;
+    width: 9rem;
+    height: 5.9rem;
+    right: 2rem;
+    /* display: none; */
+    top: -7rem;
+    margin-bottom: 0.3rem;
+    background-size: 100% 100%;
+    background-image: url("../images/index-pc-bg7-3.png");
+}
+
+.page-seven .common-line .bottom-image1 {
+    position: absolute;
+    z-index: -1;
+    width: 9.9rem;
+    height: 6.4rem;
+    right: 4rem;
+    /* display: none; */
+    top: -1rem;
+    margin-bottom: 0.3rem;
+    background-size: 100% 100%;
+    background-image: url("../images/index-pc-bg7-4.png");
+}
+
+
+/* 方案價格 */
+
+.page-eight .common-line {
+    text-align: center;
+    position: relative;
+}
+
+.page-eight .common-line .top-image {
+    width: 4.10rem;
+    display: inline-block;
+    height: 1.6rem;
+    margin-bottom: 0.0rem;
+    background-image: url("../images/index-pc-bg8-1.png");
+}
+
+.page-eight .common-line .center-image {
+    width: 15.5rem;
+    display: inline-block;
+    height: 0.45rem;
+    margin-bottom: 0.3rem;
+    background-image: url("../images/index-pc-bg8-2.png");
+}
+
+.page-eight .common-line .bottom-image {
+    width: 15.5rem;
+    display: inline-block;
+    height: 8.55rem;
+    margin-bottom: 0.3rem;
+    background-image: url("../images/index-pc-bg8-3.png");
+}
+
+
+/* 客戶全景服務 */
+
+.page-nine .common-line {
+    text-align: center;
+    position: relative;
+}
+
+.page-nine .common-line .top-image {
+    width: 16.1rem;
+    display: inline-block;
+    height: 0.45rem;
+    margin-bottom: 0.3rem;
+    background-image: url("../images/index-pc-bg9-1.png");
+}
+
+.page-nine .common-line .center-image {
+    width: 13.4rem;
+    display: inline-block;
+    height: 2.45rem;
+    margin-bottom: 0.3rem;
+    background-image: url("../images/index-pc-bg9-2.png");
+}
+
+.page-nine .common-line .bottom-image {
+    width: 2.4rem;
+    display: inline-block;
+    height: 0.85rem;
+    margin-bottom: 0.3rem;
+    background-image: url("../images/index-pc-bg9-3.png");
+}
+
+
+/* <!--聯係我們--> */
+
+.page-ten {
+    padding-left: 2.00rem;
+    height: 6.8rem;
+}
+
+.page-ten>div {
+    display: inline-block;
+}
+
+.page-ten .left-container {
+    display: inline-block;
+    width: 6.5rem;
+    height: 6.8rem;
+}
+
+.page-ten .left-container .top-image {
+    display: inline-block;
+    width: 6.5rem;
+    height: 1.5rem;
+    background-size: 100% 100%;
+    background-image: url("../images/index-pc-bg10-1.png");
+}
+
+.page-ten .left-container .common-lable {
+    margin-left: 0.30rem;
+    font-size: 0.20rem;
+    color: rgb(88, 80, 87);
+    margin-bottom: 0.10rem;
+}
+
+.page-ten .left-container .common-input {
+    position: relative;
+    margin-left: 0.30rem;
+    margin-top: 0.10rem;
+    width: 4.0rem;
+    height: 0.45rem;
+    border-radius: 0.30rem;
+    background-color: rgb(248, 248, 248);
+}
+
+.send-words {
+    text-align: center;
+    width: 4.0rem;
+}
+
+.send-words span {
+    display: inline-block;
+    border-radius: 0.10rem;
+    width: 1.00rem;
+    height: 0.55rem;
+    margin-top: 0.20rem;
+    line-height: 0.55rem;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(57, 113, 135);
+    font-size: 0.30rem;
+}
+
+.common-input input {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: none;
+    outline: none;
+    width: 4.0rem;
+    height: 0.45rem;
+    border-radius: 0.30rem;
+    background-color: rgb(248, 248, 248);
+}
+
+.page-ten .right-container {
+    position: relative;
+    float: right;
+    display: inline-block;
+    width: 10.5rem;
+    height: 6.8rem;
+    background-size: 100% 100%;
+    background-image: url("../images/index-pc-bg10-2.png");
+}
+
+.page-ten .right-container .call-image {
+    position: absolute;
+    right: 4.0rem;
+    top: 4.0rem;
+    display: inline-block;
+    width: 1.5rem;
+    height: 0.65rem;
+    background-size: 100% 100%;
+    background-image: url("../images/index-pc-bg10-3.png");
+}
