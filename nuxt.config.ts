@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
    // origin config  
-  runtimeConfig: {
+    runtimeConfig: {
       apiSecret: '怎麼可以讓你知道呢 :P',
       public: {
         apiBase: '/api',
@@ -39,6 +39,7 @@ export default defineNuxtConfig({
         legacy: false
       }
     },
+    css:['element-plus/dist/index.css']
     // nitro: {
     //   prerender: {
     //     ignore: [],

@@ -66,10 +66,12 @@ const action = async() => {
     dealStatus.value = false
   }
 }
-console.log('a')
-await new Promise((resolve) => {
-  console.log('b')
-  setTimeout(resolve, 2000)
-})
-console.log('c')
+// console.log('a')
+// await new Promise((resolve) => {
+//   console.log('b')
+//   setTimeout(resolve, 2000)
+// })
+// console.log('c')
+let logs = [[0,5],[1,2],[0,2],[0,5],[1,3]], k = 5
+
 </script>
